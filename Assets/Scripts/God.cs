@@ -5,12 +5,13 @@ using UnityEngine;
 public class God : MonoBehaviour
 {
 
-    
+    public enum Mode { Play, Edit };
+    public Mode currentPlayMode;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        DontDestroyOnLoad(this.gameObject);
     }
 
     // Update is called once per frame
@@ -18,4 +19,16 @@ public class God : MonoBehaviour
     {
         
     }
+
+    public void SetModePlay()
+    {
+        currentPlayMode = Mode.Play;
+    }
+
+    public void SetModeEdit()
+    {
+        currentPlayMode = Mode.Edit;
+    }
 }
+
+
