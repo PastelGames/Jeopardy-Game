@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Welcome.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Board Selector.unity
+    guid: 785b212b7e8367541a19f70cfc566db1
+  - enabled: 1
+    path: Assets/Scenes/Board.unity
+    guid: f86c875dce8a1c347a9945eccde292c6
+  - enabled: 1
+    path: Assets/Scenes/Question.unity
+    guid: 6a137b12304efff4c9cd4ad547ed6f4f
+  m_configObjects: {}
