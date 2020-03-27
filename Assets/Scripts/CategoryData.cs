@@ -5,6 +5,15 @@ using UnityEngine;
 [System.Serializable]
 public class CategoryData
 {
-    string categoryName;
-    QuestionData[] questions;
+    public string categoryName;
+    public QuestionData[] questions;
+
+    public CategoryData()
+    {
+        questions = new QuestionData[5];
+        for (int i = 0; i < questions.Length; i++)
+        {
+            questions[i] = new QuestionData();
+        }
+    }
 }

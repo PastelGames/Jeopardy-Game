@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 140982959}
   - component: {fileID: 140982962}
   - component: {fileID: 140982963}
+  - component: {fileID: 140982964}
   m_Layer: 5
   m_Name: Make Board Button
   m_TagString: Button
@@ -267,6 +268,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec8e38822f4132f478a4f35c46f3dc44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &140982964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140982957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a47571fd3d29d264e9817d6086082865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &149551573
@@ -877,6 +890,7 @@ GameObject:
   - component: {fileID: 1641201185}
   - component: {fileID: 1641201184}
   - component: {fileID: 1641201187}
+  - component: {fileID: 1641201188}
   m_Layer: 5
   m_Name: Play Board Button
   m_TagString: Button
@@ -1000,6 +1014,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToGoToString: Board Selector
+--- !u!114 &1641201188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641201182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7971d5b3a26212743b6995fd0f35bcd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1989948963
 GameObject:
   m_ObjectHideFlags: 0

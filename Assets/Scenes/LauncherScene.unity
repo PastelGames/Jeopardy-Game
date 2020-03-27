@@ -452,6 +452,101 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 955bdc753a3a5d149ac45829dd4c07ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentPlayMode: 1
+  gameData:
+    boards: []
+  currentBoard:
+    boardName: 
+    categoryData:
+    - categoryName: 
+      questions:
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+    - categoryName: 
+      questions:
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+    - categoryName: 
+      questions:
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+    - categoryName: 
+      questions:
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+    - categoryName: 
+      questions:
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+      - question: 
+        imageLink: 
+        answered: 0
+  currentQuestion:
+    question: 
+    imageLink: 
+    answered: 0
 --- !u!4 &2073631007
 Transform:
   m_ObjectHideFlags: 0

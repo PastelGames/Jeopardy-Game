@@ -8,12 +8,14 @@ public class SceneSwapper : MonoBehaviour
 {
 
     public Stack<int> visitedScenes;
+    God god;
 
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);
         visitedScenes = new Stack<int>();
+        god = GameObject.Find("God").GetComponent<God>();
     }
 
     // Update is called once per frame
@@ -48,5 +50,6 @@ public class SceneSwapper : MonoBehaviour
     public void ReturnToPreviousScene()
     {
         SceneManager.LoadScene(visitedScenes.Pop());
+        SetButtons();
     }
 }

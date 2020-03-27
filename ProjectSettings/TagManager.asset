@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SceneSwapper
   - Button
+  - Question
   layers:
   - Default
   - TransparentFX

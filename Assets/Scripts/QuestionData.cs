@@ -5,18 +5,17 @@ using UnityEngine;
 [System.Serializable]
 public class QuestionData
 {
-    string question;
-    string imageLink;
+    public string question;
+    public string imageLink;
+    public bool answered;
+    public bool useVisualAid;
 
     public QuestionData()
     {
         question = "";
         imageLink = "";
+        answered = false;
+        useVisualAid = false;
     }
 
-    public QuestionData(string question, string imageLink)
-    {
-        this.question = question;
-        this.imageLink = imageLink;
-    }
 }

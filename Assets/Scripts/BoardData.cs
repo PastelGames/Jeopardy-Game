@@ -5,6 +5,16 @@ using UnityEngine;
 [System.Serializable]
 public class BoardData
 {
-    string boardName;
-    CategoryData[] categoryData;
+    public string boardName;
+    public CategoryData[] categoryData;
+
+    public BoardData()
+    {
+        boardName = "";
+        categoryData = new CategoryData[5];
+        for(int i = 0; i < categoryData.Length; i++)
+        {
+            categoryData[i] = new CategoryData();
+        }
+    }
 }
