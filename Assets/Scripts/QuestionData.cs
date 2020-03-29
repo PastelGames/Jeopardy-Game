@@ -7,6 +7,7 @@ public class QuestionData
 {
     public string question;
     public string imageLink;
+    public string answer;
     public bool answered;
     public bool useVisualAid;
 
@@ -14,6 +15,7 @@ public class QuestionData
     {
         question = "";
         imageLink = "";
+        answer = "";
         answered = false;
         useVisualAid = false;
     }
