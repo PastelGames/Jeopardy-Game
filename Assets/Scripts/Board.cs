@@ -72,7 +72,7 @@ public class Board : MonoBehaviour
                 {
                     if (god.currentBoard.categoryData[i].questions[j - 1].answered)
                     {
-                        board.GetChild(i).GetChild(j).gameObject.GetComponentInChildren<Image>().color = Color.red;
+                        board.GetChild(i).GetChild(j).gameObject.GetComponentInChildren<Image>().color = Color.green;
                     }
                     else
                     {
